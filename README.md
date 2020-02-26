@@ -54,3 +54,8 @@ Github | GAS | Tableau
 - 2018年6月  AWS認定クラウドプラクティショナー
 - 2017年12月  応用情報技術者
 - 2015年5月  基本情報技術者
+
+## その他
+
+- GitHub: https://github.com/kosei-s
+- Kaggle: https://www.kaggle.com/koseis
