@@ -69,7 +69,7 @@ Github | GAS | Tableau
   - 処理性能比較のため、既存のHadoop処理バッチをRedshift, Athena用にPostgreSQLで再実装
   - EMR, Redshift, Athenaそれぞれの特徴、差異を調査し資料作成
 
-### ビッグデータ分析基盤EOS<br>【Bash/Python/Java/Hadoop/EMR/Lambda/DynamoDB】（2017年10月〜2018年2月）
+### ビッグデータ分析基盤EOS対応<br>【Bash/Python/Java/Hadoop/EMR/Lambda/DynamoDB】（2017年10月〜2018年2月）
 
 【概要】同上のチームにおいて、EOSを迎えたオンプレミスのビッグデータ分析基盤をAWS上に構築・移行するプロジェクトにおけるPoCを担当。
 
