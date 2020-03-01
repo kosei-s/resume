@@ -111,5 +111,6 @@ Github | GAS | Tableau
 
 ## その他
 
-- GitHub: https://github.com/kosei-s
-- Kaggle: https://www.kaggle.com/koseis
+- 業務使用ツール：Slack | Teams | Redmine | Jira/Confluence | Office | Gsuite
+- GitHubアカウント: https://github.com/kosei-s
+- Kaggleアカウント: https://www.kaggle.com/koseis
