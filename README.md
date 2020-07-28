@@ -2,7 +2,7 @@
 
 ## 概要
 
-- Hadoopを用いた分散並列処理、BigQueryを用いたデータ分析、Pythonを用いたデータ加工、AWSのマネージドサービスの利用といった経験があります。
+- Hadoopを用いた分散並列処理、BigQuery/Redshiftを用いたデータ集計、Pythonを用いたデータ加工、AWSの各種マネージドサービスの利用といった経験があります。
 - 主に設計フェーズから実装・テストフェーズまでを担当してきました。
 - 短期間のうちに様々な技術を経験しており、新しい技術へのキャッチアップは早いと思っています。
 
@@ -12,7 +12,7 @@
 
 ### 言語
 
-Java | Ruby | Python | Bash | TTL
+Python | Ruby | Java | Bash | TTL
 
 ### フレームワーク
 
@@ -26,7 +26,7 @@ MySQL | PostgreSQL | Oracle | BigQuery | Hive
 
 #### AWS
 
-EC2 | EMR | Redshift | Lambda | S3 | EBS | DynamoDB | IAM | Cloud Watch
+Athena | EMR | Redshift | Glue | EC2 | Lambda | ECS | ECR | Connect | DynamoDB | CodeCommit | CodeBuild | CodeDeploy | CodePipeline | CloudWatch | CloudFormation | PHD | SSM | IAM | S3 | EBS
 
 #### GCP
 
@@ -34,7 +34,7 @@ BigQuery | GCS
 
 ### その他
 
-Github | GAS | Tableau
+Docker | Airflow | GitHub | GAS | Tableau | Redash
 
 ## 職務経歴
 
