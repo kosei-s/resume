@@ -34,9 +34,15 @@ BigQuery | GCS
 
 ### その他
 
-Docker | Airflow | GitHub | GAS | Tableau | Redash
+Docker | Airflow | Git | GitHub Actions | GAS | Tableau | Redash
 
 ## 職務経歴
+
+### Airflowを用いたETLパイプラインの構築・運用<br>【Airflow/Docker/Python/Redshift/Glue/DynamoDB】(2020年4月〜)
+
+【概要】WIP
+
+【業務内容】WIP
 
 ### BigQuery等を用いたデータ分析<br>【BigQuery/GAS/Tableau】（2019年10月〜2020年3月）
 
@@ -60,14 +66,6 @@ Docker | Airflow | GitHub | GAS | Tableau | Redash
   - 案件推進サポート
   - 設計書等のプロジェクト文書作成
   - AIモデル運用ルール策定
-
-### AWSのデータ分析サービス比較調査<br>【EMR/Redshift/Athena/PostgreSQL】（2018年3月〜2018年5月）
-
-【概要】ビッグデータ分析チームにおいて、オンプレミスの分析DBをクラウドに移行する際の事前調査として、AWSのデータ分析サービスであるAmazon EMR, Amazon Redshift, Amazon Athenaそれぞれの特徴、差異の調査を担当。
-
-【業務内容】
-  - 処理性能比較のため、既存のHadoop処理バッチをRedshift, Athena用にPostgreSQLで再実装
-  - EMR, Redshift, Athenaそれぞれの特徴、差異を調査し資料作成
 
 ### ビッグデータ分析基盤EOS対応<br>【Bash/Python/Java/Hadoop/EMR/Lambda/DynamoDB】（2017年10月〜2018年2月）
 
@@ -94,11 +92,12 @@ Docker | Airflow | GitHub | GAS | Tableau | Redash
 
 【業務内容】トラブル発生の報告を受け、原因箇所を特定、開発環境上で改修、テスト、本番適用までを実施。
 
-### 定期作業の自動化<br>【Bash/MySQL/TTL(TeraTermマクロ)】（2019年5月〜2019年9月）
+### その他
 
-【概要】システム稼働情報レポーティング作業等の自動化を担当。
-
-【業務内容】シェルスクリプト、SQL、TeraTermマクロ、cronを用いて、データ取得・集計・レポート出力といった作業を複数自動化。
+- AWSのデータ分析サービス比較調査 【EMR/Redshift/Athena/PostgreSQL】（2018年3月〜2018年5月）
+  - 【概要】ビッグデータ分析チームにおいて、オンプレミスの分析DBをクラウドに移行する際の事前調査として、AWSのデータ分析サービスであるAmazon EMR, Amazon Redshift, Amazon Athenaそれぞれの特徴、差異の調査を担当。
+- 定期作業の自動化 【Bash/MySQL/TTL(TeraTermマクロ)】（2019年5月〜2019年9月）
+  - 【概要】システム稼働情報レポーティング作業等の自動化を担当。
 
 ## 取得資格
 
@@ -112,6 +111,6 @@ Docker | Airflow | GitHub | GAS | Tableau | Redash
 
 ## その他
 
-- 業務使用ツール：Slack | Teams | Redmine | Jira/Confluence | Office | Gsuite
+- 業務使用ツール：Slack | GitHub | Redmine | Jira/Confluence | Office | Gsuite
 - GitHubアカウント: https://github.com/kosei-s
 - Kaggleアカウント: https://www.kaggle.com/koseis
