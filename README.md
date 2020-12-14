@@ -102,6 +102,7 @@ Docker | Airflow | GitHub | GAS | Tableau | Redash
 
 ## 取得資格
 
+- 2020年12月  AWS認定データアナリティクス
 - 2018年12月  AWS認定ソリューションアーキテクト アソシエイト
 - 2018年10月  LPIC レベル1
 - 2018年9月  LinuC レベル1
