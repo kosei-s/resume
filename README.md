@@ -40,9 +40,12 @@ Docker | Airflow | Git | GitHub Actions | GAS | Tableau | Redash
 
 ### Airflowを用いたETLパイプラインの構築・運用<br>【Airflow/Docker/Python/Redshift/Glue/DynamoDB】(2020年4月〜)
 
-【概要】WIP
+【概要】 映像メディア系のデータ活用チームにおいて、Airflowを用いたETLパイプラインの構築を担当
 
-【業務内容】WIP
+【業務内容】
+  - Airflow上においてRedshiftやGlue, S3, DynamoDB等を用いたETLワークフローを実装
+  - 主なETL内容としては、GlueにS3データのスキーマを登録し、Redshift Spectrumで集計・変換し、Redshiftへロード。(ロード処理の非同期制御にDynamoDBを利用)
+  - Airflow環境の整備(puckel/docker-airflowの拡張)
 
 ### BigQuery等を用いたデータ分析<br>【BigQuery/GAS/Tableau】（2019年10月〜2020年3月）
 
@@ -92,7 +95,7 @@ Docker | Airflow | Git | GitHub Actions | GAS | Tableau | Redash
 
 【業務内容】トラブル発生の報告を受け、原因箇所を特定、開発環境上で改修、テスト、本番適用までを実施。
 
-### その他
+### その他（細かいもの等）
 
 - AWSのデータ分析サービス比較調査 【EMR/Redshift/Athena/PostgreSQL】（2018年3月〜2018年5月）
   - 【概要】ビッグデータ分析チームにおいて、オンプレミスの分析DBをクラウドに移行する際の事前調査として、AWSのデータ分析サービスであるAmazon EMR, Amazon Redshift, Amazon Athenaそれぞれの特徴、差異の調査を担当。
