@@ -18,7 +18,7 @@ Hadoop | AsakusaFW | Ruby on Rails
 
 ### DB / DWH
 
-MySQL | PostgreSQL | Oracle | BigQuery | Hive
+MySQL | PostgreSQL | Oracle | Redshift | BigQuery | Hive
 
 ### クラウド
 
@@ -47,7 +47,7 @@ Docker | Airflow | Git | GitHub Actions | GAS | Tableau | Redash
 
 ### BigQuery等を用いたデータ分析<br>【BigQuery/GAS/Tableau】（2019年10月〜2020年3月）
 
-【概要】 国内最大級のネット予約サイトを運営している企業様のデータ分析チームにおいて、BigQueryを主に用いたデータ抽出・集計やデータマート作成を担当。
+【概要】 国内最大級のネット予約サービスを運営している企業様のデータ分析チームにおいて、BigQueryを主に用いたデータ抽出・集計やデータマート作成を担当。
 
 【業務内容】 以下のような業務において設計から実装、テストまでを担当。
   - サイト利用状況や予約状況といったKPIをモニタリングするデータマート作成
