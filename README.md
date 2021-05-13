@@ -6,11 +6,11 @@
 
 ## スキル
 
-実務経験のあるもののみの記載です。
+実務経験のあるもののみの記載です。(1年以上の経験があるものは太字)
 
 ### 言語
 
-Python | Ruby | Java | Bash | TTL
+**Python** | Ruby | **Java** | JavaScript | **Bash**
 
 ### フレームワーク
 
@@ -18,13 +18,13 @@ Hadoop | AsakusaFW | Ruby on Rails
 
 ### DB / DWH
 
-MySQL | PostgreSQL | Oracle | Redshift | BigQuery | Hive
+MySQL | PostgreSQL | Oracle | **Redshift** | BigQuery | Hive
 
 ### クラウド
 
 #### AWS
 
-Athena | EMR | Redshift | Glue | EC2 | Lambda | ECS | ECR | Connect | DynamoDB | CodeCommit | CodeBuild | CodeDeploy | CodePipeline | CloudWatch | CloudFormation | PHD | SSM | IAM | S3 | EBS
+Athena | EMR | **Redshift** | **Glue** | EC2 | Lambda | ECS | ECR | Connect | DynamoDB | **CodeCommit** | CodeBuild | CodeDeploy | CodePipeline | CloudWatch | CloudFormation | PHD | **SSM** | IAM | **S3** | EBS
 
 #### GCP
 
@@ -32,7 +32,7 @@ BigQuery | GCS
 
 ### その他
 
-Docker | Airflow | Git | GitHub Actions | GAS | Tableau | Redash
+**Docker** | **Airflow** | **Git** | GitHub Actions | GAS | Tableau | **Redash** | TTL(TeraTerm)
 
 ## 職務経歴
 
