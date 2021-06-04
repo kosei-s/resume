@@ -112,6 +112,6 @@ BigQuery | GCS
 
 ## その他
 
-- 業務使用ツール：Slack | GitHub | Redmine | Jira/Confluence | Office | Gsuite
+- 業務使用ツール：Slack | GitHub | Redmine | Jira/Confluence | Office | Google Workspace
 - GitHubアカウント: https://github.com/kosei-s
 - Kaggleアカウント: https://www.kaggle.com/koseis
