@@ -4,36 +4,6 @@
 
 大学院(情報系)を卒業して以来4年間ほど、主にデータ分析・ETL周辺の業務に携わってきました。主な業務内容としては、Hadoop/EMRを用いた分散並列処理、Pythonを用いたデータ加工・集計、BigQuery/Redshiftを用いたデータ集計、Airflowを用いたETLワークフロー構築等の経験があります。役割は基本的に設計・実装・テストです。
 
-## スキル
-
-実務経験のあるもののみの記載です。(1年以上の経験があるものは太字)
-
-### 言語
-
-**Python** | Ruby | **Java** | JavaScript | **Bash**
-
-### フレームワーク
-
-Hadoop | AsakusaFW | Ruby on Rails
-
-### DB / DWH
-
-MySQL | PostgreSQL | Oracle | **Redshift** | BigQuery | Hive
-
-### クラウド
-
-#### AWS
-
-Athena | EMR | **Redshift** | **Glue** | EC2 | Lambda | ECS | ECR | Connect | DynamoDB | **CodeCommit** | CodeBuild | CodeDeploy | CodePipeline | CloudWatch | CloudFormation | PHD | **SSM** | IAM | **S3** | EBS
-
-#### GCP
-
-BigQuery | GCS
-
-### その他
-
-**Docker** | **Airflow** | **Git** | GitHub Actions | GAS | Tableau | **Redash** | TTL(TeraTerm)
-
 ## 職務経歴
 
 ### Airflowを用いたETLパイプラインの構築・運用<br>【Airflow/Docker/Python/Redshift/Glue/DynamoDB】(2020年4月〜2021年3月)
@@ -100,6 +70,39 @@ BigQuery | GCS
 - 定期作業の自動化 【Bash/MySQL/TTL(TeraTermマクロ)】（2019年5月〜2019年9月）
   - 【概要】システム稼働情報レポーティング作業等の自動化を担当。
 
+## スキル
+
+### 言語
+
+**Python3** | Ruby | **Java** | JavaScript | **ShellScript** | **C**
+
+### フレームワーク
+
+Hadoop | Spark | Ruby on Rails
+
+### DB / DWH
+
+MySQL | PostgreSQL | **Redshift** | **BigQuery**
+
+### クラウド
+
+#### AWS
+
+**Athena** | EMR | **Redshift** | **Glue** | EC2 | Lambda | ECS | DynamoDB | **CodeCommit** | CodePipeline | CloudFormation | DataPipeline
+
+#### GCP
+
+**BigQuery**
+
+### その他
+
+**Docker** | **Airflow** | **Git** | GAS | Tableau
+
+## 学歴
+
+- 東京工業大学大学院 情報理工学研究科 計算工学専攻 修了
+- 東京工業大学 工学部 情報工学科 卒業
+
 ## 取得資格
 
 - 2020年12月  AWS認定データアナリティクス
@@ -112,6 +115,7 @@ BigQuery | GCS
 
 ## その他
 
-- 業務使用ツール：Slack | GitHub | Redmine | Jira/Confluence | Office | Google Workspace
+- 業務使用ツール： Slack | GitHub | Redmine | Jira/Confluence | Microsoft Office | Google Workspace
 - GitHubアカウント: https://github.com/kosei-s
+- Qiitaアカウント: https://qiita.com/kosei-s
 - Kaggleアカウント: https://www.kaggle.com/koseis
