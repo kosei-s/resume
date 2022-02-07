@@ -116,15 +116,14 @@ MySQL | PostgreSQL | **Redshift** | **BigQuery**
 
 - 2020年12月  AWS認定データアナリティクス
 - 2018年12月  AWS認定ソリューションアーキテクト アソシエイト
-- 2018年10月  LPIC レベル1
-- 2018年9月  LinuC レベル1
+- 2018年10月  LPIC レベル1 (LinuC レベル1)
 - 2018年6月  AWS認定クラウドプラクティショナー
 - 2017年12月  応用情報技術者
 - 2015年5月  基本情報技術者
 
 ## その他
 
-- 業務使用ツール： Slack | GitHub | Redmine | Jira/Confluence | Microsoft Office | Google Workspace
+- 業務使用経験ツール： Slack | GitHub | Redmine | Jira/Confluence | Microsoft Office | Google Workspace
 - GitHubアカウント: https://github.com/kosei-s
 - Qiitaアカウント: https://qiita.com/kosei-s
 - Kaggleアカウント: https://www.kaggle.com/koseis
