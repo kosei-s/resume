@@ -6,14 +6,23 @@
 
 ## 職務経歴
 
-### Airflowを用いたETLパイプラインの構築・運用<br>【Airflow/Docker/Python/Redshift/Glue/DynamoDB】(2020年4月〜2022年3月)
+### Airflow等を用いたETLパイプラインの構築・運用 (2020年4月〜2022年3月)
 
-【概要】 大手テレビ局子会社様のデータ活用チームにおいて、Airflowを用いたETLパイプラインの構築を担当
+【概要】<br>
+　大手テレビ局子会社様のデータ活用チームにおいて、Airflowを用いたETLパイプラインの構築を担当
 
 【業務内容】
-  - Airflow上においてRedshiftやGlue, S3, DynamoDB等を用いたETLワークフローを実装
+- Airflow上においてRedshiftやGlue, S3, DynamoDB等を用いたETLワークフローを実装
   - 主なETL内容としては、GlueにS3データのスキーマを登録し、Redshift Spectrumで集計・変換し、Redshiftへロード。(ロード処理の非同期制御にDynamoDBを利用)
-  - Airflow環境の整備(puckel/docker-airflowの拡張)
+- AWS Data Pipeline, EMR(Spark)を用いたETLバッチの実装
+
+【使用技術】<br>
+　(言語) Python3 / Bash / SQL(Redshift, Athena, Presto)<br>
+　(FW) Airflow / Docker<br>
+　(ツール/サービス) AWS(Redshift, Athena, Glue, EMR, Lambda, ECS, CodeCommit, Data Pipeline)
+
+【役割/規模】<br>
+　20名程のチームの開発メンバーとして、リーダーからデータETLパイプラインの仕様をヒヤリングし、それを元に設計・実装・テストを実施する役割。
 
 ### BigQuery等を用いたデータ分析<br>【BigQuery/GAS/Tableau】（2019年10月〜2020年3月）
 
