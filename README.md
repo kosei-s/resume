@@ -9,17 +9,19 @@
 ### Airflow/Python等を用いたETLパイプラインの構築・運用 (2020年4月〜2022年3月)
 
 【概要】<br>
-　大手テレビ局子会社様のデータ活用チームにおいて、Airflowを用いたETLパイプラインの構築を担当
+　大手放送局子会社様のデータ活用チームにおいて、Airflowを用いたETLパイプラインの構築を担当
 
 【業務内容】
 - Airflow上においてRedshiftやGlue, S3, DynamoDB等を用いたETLワークフローを実装
-  - 主なETL内容としては、GlueにS3データのスキーマを登録し、Redshift Spectrumで集計・変換し、Redshiftへロード。(ロード処理の非同期制御にDynamoDBを利用)
+  - 主なETL内容としては、GlueにS3データのスキーマを登録し、Redshift Spectrumで集計・変換し、Redshift(データマート)へロード。(ロード処理の非同期制御にDynamoDBを利用)
 - AWS Data Pipeline, EMR(Spark)を用いたETLバッチの実装
+- Pythonでのrawデータのクレンジングや構造化等の加工処理
 
 【使用技術】<br>
-　(言語) Python3 / Bash / SQL(Redshift, Athena, Presto)<br>
-　(FW) Airflow / Docker<br>
-　(ツール/サービス) AWS(Redshift, Athena, Glue, EMR, Lambda, ECS, CodeCommit, Data Pipeline)
+　(言語) Python3, Bash, SQL(Redshift, Athena, Presto)<br>
+　(FW) Airflow, Docker, Spark, Presto<br>
+　(AWS) Redshift, Athena, Glue, EMR, Lambda, ECS, CodeCommit, Data Pipeline<br>
+　(ツール) Git, GitHub(Actions)
 
 【役割/規模】<br>
 　20名程のチームの開発メンバーとして、リーダーからデータETLパイプラインの仕様をヒヤリングし、それを元に設計・実装・テストを実施する役割。
