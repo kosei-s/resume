@@ -21,9 +21,9 @@
 
 【使用技術】<br>
 　(言語) Python3, SQL(Redshift, Athena, Presto), shell script<br>
-　(FW) Airflow, Docker, Spark, Presto<br>
+　(FW) Airflow, Spark, Presto<br>
 　(AWS) Redshift, Athena, Glue, S3, EMR, Lambda, ECS, CodeCommit, CodePipeline, Data Pipeline<br>
-　(ツール) Git, GitHub(Actions), Redash
+　(ツール) Docker, Git, GitHub Actions, Redash
 
 ### BigQuery等を用いたデータ分析 （2019年10月〜2020年3月）
 
@@ -42,7 +42,7 @@
 　(言語) SQL(BigQuery, Redshift), JavaScript, shell script <br>
 　(AWS) Redshift<br>
 　(GCP) BigQuery<br>
-　(ツール) Tableau, GAS, Git, GitHub
+　(ツール) Tableau, GAS, Git
 
 ### 画像認識AIモデル開発案件 （2018年9月〜2019年3月）
 
@@ -98,7 +98,7 @@
 
 ### フレームワーク
 
-Hadoop | Spark | Ruby on Rails
+Hadoop | Spark | Hive | Presto | Ruby on Rails
 
 ### DB / DWH
 
@@ -108,7 +108,7 @@ MySQL | PostgreSQL | **Redshift** | **BigQuery**
 
 #### AWS
 
-**Athena** | EMR | **Redshift** | **Glue** | EC2 | Lambda | ECS | DynamoDB | **CodeCommit** | CodePipeline | CloudFormation | DataPipeline
+EC2 | **Lambda** | **S3** | DynamoDB | API Gateway | **CodeCommit** | CodePipeline(Build, Deploy) | CloudWatch | CloudFormation | Systems Manager | **Athena** | **Redshift** | **EMR** | **Data Pipeline** | **Glue** | IAM | ECR | ECS
 
 #### GCP
 
@@ -116,7 +116,7 @@ MySQL | PostgreSQL | **Redshift** | **BigQuery**
 
 ### その他
 
-**Docker** | **Airflow** | **Git** | GAS | Tableau
+**Docker** | **Airflow** | **Git** | **GitHub Actions** | GAS | Tableau | Redash
 
 ## 学歴
 
