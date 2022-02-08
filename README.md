@@ -11,7 +11,7 @@
 【概要】<br>
 　大手放送局子会社様のデータ活用チームにおいて、Airflowを用いたETLパイプラインの構築を担当
 
-【業務内容】
+【業務内容】 以下のような業務において設計から実装、テストまでを担当
 - Airflow上においてRedshiftやGlue, S3, DynamoDB等を用いたETLワークフローを実装
   - 主なETL内容としては、GlueにS3データのスキーマを登録し、Redshift Spectrumで集計・変換し、Redshift(データマート)へロード。(ロード処理の非同期制御にDynamoDBを利用)
 - AWS Data Pipeline, EMR(Spark)を用いたETLバッチの実装
@@ -25,15 +25,12 @@
 　(AWS) Redshift, Athena, Glue, S3, EMR, Lambda, ECS, CodeCommit, CodePipeline, Data Pipeline<br>
 　(ツール) Git, GitHub(Actions), Redash
 
-【役割/規模】<br>
-　20名程のチームの開発メンバーとして、リーダーからデータETLパイプラインの仕様をヒヤリングし、それを元に設計・実装・テストを実施する役割。
-
 ### BigQuery等を用いたデータ分析 （2019年10月〜2020年3月）
 
 【概要】<br>
-　国内最大級のネット予約サービスを運営している企業様のデータ分析チームにおいて、BigQueryを主に用いたデータ抽出・集計やデータマート作成を担当。
+　国内最大級のネット予約サービスを運営している企業様のデータ分析チームにおいて、BigQueryを主に用いたデータ抽出・集計やデータマート作成を担当
 
-【業務内容】 以下のような業務において設計から実装、テストまでを担当。
+【業務内容】 以下のような業務において設計から実装、テストまでを担当
 - サイト利用状況や予約状況といったKPIをモニタリングするデータマート作成
 - AdobeアナリティクスやGoogleアナリティクスのデータを用いたPVモニタリングのデータマート作成
 - DWH上のデータへのアドホックなデータ抽出
@@ -42,56 +39,56 @@
 - Tableauでのビューの作成
 
 【使用技術】<br>
-　(言語) SQL(BigQuery, Redshift), Python3, shell script <br>
+　(言語) SQL(BigQuery, Redshift), JavaScript, shell script <br>
 　(AWS) Redshift<br>
 　(GCP) BigQuery<br>
 　(ツール) Tableau, GAS, Git, GitHub
 
-【役割/規模】<br>
-　10名程のチームのメンバー(データアナリスト)として、各事業部のご依頼を元に上記の業務における設計・実装・テストを実施する役割。
+### 画像認識AIモデル開発案件 （2018年9月〜2019年3月）
 
-### 画像認識AIモデル開発案件<br>【Python/Bash】（2018年9月〜2019年3月）
-
-【概要】メガバンクのAI開発チームにおいて、案件推進サポートやAIモデルの学習データの作成等を担当。
+【概要】<br>
+　メガバンクのAI開発チームにおいて、案件推進サポートやAIモデルの学習データの作成等を担当
 
 【業務内容】
-  - AIモデル学習用のデータ作成・加工（アノテーション）
-  - Pythonライブラリを用いたAIモデル推論結果のPrecision, Recall算出
-  - 案件推進サポート
-  - 設計書等のプロジェクト文書作成
-  - AIモデル運用ルール策定
+- AIモデル学習用のデータ作成・加工（アノテーション）
+- Pythonライブラリを用いたAIモデル推論結果のPrecision, Recall算出
+- 案件推進サポート
+- 設計書等のプロジェクト文書作成
+- AIモデル運用ルール策定
 
-### ビッグデータ分析基盤EOS対応<br>【Bash/Python/Java/Hadoop/EMR/Lambda/DynamoDB】（2017年10月〜2018年2月）
+【使用技術】<br>
+　(言語) Python2, shell script
 
-【概要】同上のチームにおいて、EOSを迎えたオンプレミスのビッグデータ分析基盤をAWS上に構築・移行するプロジェクトにおけるPoCを担当。
+### Hadoopを用いたデータ処理及びビッグデータ基盤EOS案件 （2017年7月〜2018年2月）
 
-【業務内容】以下のようなフィージビリティ検証や性能検証等のPoCを担当。
+【概要】<br>
+　同上の組織において、データ処理バッチ開発や、EOSを迎えたオンプレミスのビッグデータ分析基盤をAWS上に構築・移行するプロジェクトにおけるPoCを担当
+
+【業務内容】
+- Webログと顧客データの紐付けといったデータ加工処理バッチの実装
+  - データ処理フローをフローチャートにより設計、Hadoopのフレームワークを用いた実装、フレームワークの機能を用いて単体テストと結合テストを実施
+- 基盤EOSにおいて、以下のようなフィージビリティ検証や性能検証等のPoCを実施。
   - 基盤移行に伴い、分析ジョブの実行フレームワークも変更となったため、変更後フレームワークに合わせた形にジョブ内容を修正
   - AWS上で利用するサーバー(インスタンス)選定のための性能検証
   - AWS Lambdaを利用した自動ジョブ連携のフィージビリティ検証
-  - AWS Lambdaの多重起動問題を発見し、対応策を策定・実装。
+  - AWS Lambdaの多重起動問題を発見し、対応策を策定・実装
 
-### Hadoopを用いたデータ処理<br>【Java/Hadoop/AsakusaFW/Hive】（2017年7月〜2017年9月）
-
-【概要】同上のチームにおいて、Webログと顧客データの紐付けバッチ開発における設計から実装、テストまでを担当。
-
-【業務内容】
-  - データ処理フローをフローチャートにより設計
-  - Hadoopのフレームワークを用いた実装
-  - フレームワークの機能を用いて単体テストと結合テストを実施
+【使用技術】<br>
+　(言語) Java, shell script, Python3<br>
+　(FW) Hadoop, AsakusaFW, Hive<br>
+　(AWS) EMR, Lambda, DynamoDB
 
 ### Ruby on Rails アプリの保守運用<br>【Ruby on Rails/MySQL】（2019年5月〜2019年9月）
 
-【概要】Ruby on Railsで実装されたインフラ監視システムの保守・運用を担当。
+【概要】<br>
+　Ruby on Railsで実装されたインフラ監視システムの保守・運用を担当。
 
 【業務内容】トラブル発生の報告を受け、原因箇所を特定、開発環境上で改修、テスト、本番適用までを実施。
 
-### その他（細かいもの等）
-
-- AWSのデータ分析サービス比較調査 【EMR/Redshift/Athena/PostgreSQL】（2018年3月〜2018年5月）
-  - 【概要】ビッグデータ分析チームにおいて、オンプレミスの分析DBをクラウドに移行する際の事前調査として、AWSのデータ分析サービスであるAmazon EMR, Amazon Redshift, Amazon Athenaそれぞれの特徴、差異の調査を担当。
-- 定期作業の自動化 【Bash/MySQL/TTL(TeraTermマクロ)】（2019年5月〜2019年9月）
-  - 【概要】システム稼働情報レポーティング作業等の自動化を担当。
+【使用技術】<br>
+　(言語) Ruby, SQL(MySQL)<br>
+　(DB) MySQL<br>
+　(FW) Ruby on Rails
 
 ## スキル
 
@@ -137,7 +134,7 @@ MySQL | PostgreSQL | **Redshift** | **BigQuery**
 
 ## その他
 
-- 業務使用経験ツール： Slack | GitHub | Redmine | Jira/Confluence | Microsoft Office | Google Workspace
+- 業務使用経験ツール： Slack | GitHub | Redmine | Jira/Confluence | Backlog | Microsoft Office | Google Workspace
 - GitHubアカウント: https://github.com/kosei-s
 - Qiitaアカウント: https://qiita.com/kosei-s
 - Kaggleアカウント: https://www.kaggle.com/koseis
