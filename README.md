@@ -6,7 +6,7 @@
 
 ## 職務経歴
 
-### Airflow/Python等を用いたETLパイプラインの構築・運用 (2020年4月〜2022年3月)
+### Airflow等を用いたETLパイプラインの構築・運用 (2020年4月〜2022年3月)
 
 【概要】<br>
 　大手放送局子会社様のデータ活用チームにおいて、Airflowを用いたETLパイプラインの構築を担当
@@ -16,27 +16,39 @@
   - 主なETL内容としては、GlueにS3データのスキーマを登録し、Redshift Spectrumで集計・変換し、Redshift(データマート)へロード。(ロード処理の非同期制御にDynamoDBを利用)
 - AWS Data Pipeline, EMR(Spark)を用いたETLバッチの実装
 - Pythonでのrawデータのクレンジングや構造化等の加工処理
+- Dockerを用いたローカル開発環境(Jupyter NotebookやHadoop)の構築
+- AWS CodePipelineやGitHub Actionsを用いたCI/CDの構築
 
 【使用技術】<br>
-　(言語) Python3, Bash, SQL(Redshift, Athena, Presto)<br>
+　(言語) Python3, SQL(Redshift, Athena, Presto), shell script<br>
 　(FW) Airflow, Docker, Spark, Presto<br>
-　(AWS) Redshift, Athena, Glue, EMR, Lambda, ECS, CodeCommit, Data Pipeline<br>
-　(ツール) Git, GitHub(Actions)
+　(AWS) Redshift, Athena, Glue, S3, EMR, Lambda, ECS, CodeCommit, CodePipeline, Data Pipeline<br>
+　(ツール) Git, GitHub(Actions), Redash
 
 【役割/規模】<br>
 　20名程のチームの開発メンバーとして、リーダーからデータETLパイプラインの仕様をヒヤリングし、それを元に設計・実装・テストを実施する役割。
 
-### BigQuery等を用いたデータ分析<br>【BigQuery/GAS/Tableau】（2019年10月〜2020年3月）
+### BigQuery等を用いたデータ分析 （2019年10月〜2020年3月）
 
-【概要】 国内最大級のネット予約サービスを運営している企業様のデータ分析チームにおいて、BigQueryを主に用いたデータ抽出・集計やデータマート作成を担当。
+【概要】<br>
+　国内最大級のネット予約サービスを運営している企業様のデータ分析チームにおいて、BigQueryを主に用いたデータ抽出・集計やデータマート作成を担当。
 
 【業務内容】 以下のような業務において設計から実装、テストまでを担当。
-  - サイト利用状況や予約状況といったKPIをモニタリングするデータマート作成
-  - AdobeアナリティクスやGoogleアナリティクスのデータを用いたPVモニタリングのデータマート作成
-  - DWH上のデータへのアドホックなデータ抽出
-  - RedshiftからBigQueryへの移行に伴うSQL書き換え
-  - GASとBigQueryを用いたデータマートの自動定期更新/Slack配信の実装
-  - Tableauでのビューの作成
+- サイト利用状況や予約状況といったKPIをモニタリングするデータマート作成
+- AdobeアナリティクスやGoogleアナリティクスのデータを用いたPVモニタリングのデータマート作成
+- DWH上のデータへのアドホックなデータ抽出
+- RedshiftからBigQueryへの移行に伴うSQL書き換え
+- GASとBigQueryを用いたデータマートの自動定期更新/Slack配信の実装
+- Tableauでのビューの作成
+
+【使用技術】<br>
+　(言語) SQL(BigQuery, Redshift), Python3, shell script <br>
+　(AWS) Redshift<br>
+　(GCP) BigQuery<br>
+　(ツール) Tableau, GAS, Git, GitHub
+
+【役割/規模】<br>
+　10名程のチームのメンバー(データアナリスト)として、各事業部のご依頼を元に上記の業務における設計・実装・テストを実施する役割。
 
 ### 画像認識AIモデル開発案件<br>【Python/Bash】（2018年9月〜2019年3月）
 
@@ -85,7 +97,7 @@
 
 ### 言語
 
-**Python3** | Ruby | **Java** | JavaScript | **ShellScript** | **C**
+**Python3** | Ruby | **Java** | JavaScript | **shell script** | **C**
 
 ### フレームワーク
 
