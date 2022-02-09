@@ -77,12 +77,11 @@
 　(FW) Hadoop, AsakusaFW, Hive<br>
 　(AWS) EMR, Lambda, DynamoDB
 
-### Ruby on Rails アプリの保守運用<br>【Ruby on Rails/MySQL】（2019年5月〜2019年9月）
+### Ruby on Rails アプリの保守運用 （2019年5月〜2019年9月）
 
-【概要】<br>
-　Ruby on Railsで実装されたインフラ監視システムの保守・運用を担当。
+【概要】 Ruby on Railsで実装されたインフラ監視システムの保守・運用を担当。
 
-【業務内容】トラブル発生の報告を受け、原因箇所を特定、開発環境上で改修、テスト、本番適用までを実施。
+【業務内容】 トラブル発生の報告を受け、原因箇所を特定、開発環境上で改修、テスト、本番適用までを実施。
 
 【使用技術】<br>
 　(言語) Ruby, SQL(MySQL)<br>
@@ -120,7 +119,7 @@ EC2 | **Lambda** | **S3** | DynamoDB | API Gateway | **CodeCommit** | CodePipeli
 ## 学歴
 
 - 東京工業大学大学院 情報理工学研究科 計算工学専攻 修了
-  - 並列処理アルゴリズムに関する研究 http://id.nii.ac.jp/1001/00178818/
+  - 並列処理アルゴリズムに関する研究: http://id.nii.ac.jp/1001/00178818/
 - 東京工業大学 工学部 情報工学科 卒業
 
 ## 取得資格
