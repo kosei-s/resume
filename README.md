@@ -122,6 +122,7 @@ EC2 | **Lambda** | **S3** | DynamoDB | API Gateway | **CodeCommit** | CodePipeli
 
 ## 取得資格
 
+- 2022年4月  OSS-DB Exam Silver
 - 2022月2月  統計検定2級
 - 2020年12月  AWS認定データアナリティクス
 - 2018年12月  AWS認定ソリューションアーキテクト アソシエイト
