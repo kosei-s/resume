@@ -19,7 +19,7 @@
 - AWS CodePipelineやGitHub Actionsを用いたCI/CDの構築
 
 【使用技術】<br>
-　(言語) Python3, SQL(Redshift, Athena, Presto), shell script<br>
+　(言語) Python, SQL(Redshift, Athena, Presto), shell script<br>
 　(FW) Airflow, Spark, Presto<br>
 　(AWS) Redshift, Athena, Glue, S3, EMR, Lambda, ECS, CodeCommit, CodePipeline, Data Pipeline<br>
 　(ツール) Docker, Git, GitHub Actions, Redash
@@ -55,7 +55,7 @@
 - AIモデル運用ルール策定
 
 【使用技術】<br>
-　(言語) Python2, shell script
+　(言語) Python, shell script
 
 ### Hadoopを用いたデータ処理及びビッグデータ基盤EOS案件 （2017年7月〜2018年2月）
 
@@ -71,7 +71,7 @@
   - AWS Lambdaの多重起動問題を発見し、対応策を策定・実装
 
 【使用技術】<br>
-　(言語) Java, shell script, Python3<br>
+　(言語) Java, shell script, Python<br>
 　(FW) Hadoop, AsakusaFW, Hive<br>
 　(AWS) EMR, Lambda, DynamoDB
 
@@ -90,7 +90,7 @@
 
 ### 言語
 
-**Python3** | Ruby | **Java** | JavaScript | **shell script** | **C**
+**Python** | Ruby | **Java** | JavaScript | **shell script** | **C**
 
 ### フレームワーク
 
