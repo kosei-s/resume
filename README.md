@@ -6,6 +6,20 @@
 
 ## 主な職務経歴
 
+### データ基盤の運用・保守 (2022年4月〜2022年7月)
+
+【概要】 大手OA機器メーカー様のデータ基盤チームにおいて、データ基盤の運用・保守作業を担当
+
+【業務内容】
+- CloudFormationを用いて開発用の環境をAWS上に構築
+- Glueクローラの仕様調査と、クローラを用いたS3データの自動テーブル化の仕組み実装
+- データ基盤利用者(各事業部)用の環境の構築・提供（手順あり）
+
+【使用技術】<br>
+　(言語) Ruby, Python, SQL(Athena), shell script<br>
+　(FW) Ruby on Rails (rake)<br>
+　(AWS) Glue, Athena, S3, CloudFormation, CloudWatch
+
 ### Airflow等を用いたETLパイプラインの構築・運用 (2020年4月〜2022年3月)
 
 【概要】 大手放送局子会社様のデータ活用チームにおいて、Airflow等を用いたETLパイプラインの構築を担当
