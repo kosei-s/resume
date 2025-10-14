@@ -135,6 +135,7 @@ EC2 | **Lambda** | **S3** | DynamoDB | API Gateway | **CodeCommit** | CodePipeli
 
 ## 取得資格
 
+- 2025年7月  TOEIC score 755
 - 2022年4月  OSS-DB Exam Silver
 - 2022月2月  統計検定2級
 - 2020年12月  AWS認定データアナリティクス
