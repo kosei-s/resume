@@ -2,7 +2,7 @@
 
 ## 概要
 
-大学院(情報系)を卒業して以来5年間ほど、エンジニアとして主にデータ分析・ETL・基盤周辺の業務に携わってきました。主な内容としては、EMR/Hadoop/Sparkを用いたデータ処理、Pythonを用いたデータ加工・集計、BigQuery/Redshiftを用いたデータ集計、Airflowを用いたETLワークフロー構築等の経験があります。役割は基本的に設計・実装・テストです。
+大学院(情報理工学)修了後、ITエンジニアとして主にデータ基盤・ETLパイプライン・データ分析の領域に従事してきました。主な内容としては、EMR/Hadoop/Sparkを用いたデータ処理、Pythonを用いたデータ加工・集計、BigQuery/Redshiftを用いたデータ集計、Airflowを用いたETLワークフロー構築等の経験があります。役割は基本的に設計・実装・テストです。
 
 ## 主な職務経歴
 
@@ -13,7 +13,7 @@
 【業務内容】
 - CloudFormationを用いて開発用の環境をAWS上に構築
 - Glueクローラの仕様調査と、クローラを用いたS3データの自動テーブル化の仕組み実装
-- データ基盤利用者(各事業部)用の環境の構築・提供（手順あり）
+- データ基盤利用者(各事業部)用の環境の構築・提供
 
 【使用技術】<br>
 　(言語) Ruby, Python, SQL(Athena), shell script<br>
@@ -26,7 +26,7 @@
 
 【業務内容】 以下のような業務において設計から実装、テストまでを担当
 - Airflow上においてRedshiftやGlue, S3, DynamoDB等を用いたETLワークフローを実装
-  - 主なETL内容としては、GlueにS3データのスキーマを登録し、Redshift Spectrumで集計・変換し、Redshift(データマート)へロード。(ロード処理の非同期制御にDynamoDBを利用)
+  - GlueにS3データのスキーマを登録し、Redshift Spectrumで集計・変換し、Redshift(データマート)へロード（ロード処理の非同期制御にDynamoDBを利用）
 - AWS Data Pipeline, EMR(Spark)を用いたETLバッチの実装
 - Pythonでのrawデータのクレンジングや構造化等の加工処理
 - Dockerを用いたローカル開発環境(Jupyter NotebookやHadoop)の構築
@@ -40,11 +40,10 @@
 
 ### BigQuery等を用いたデータ分析 （2019年10月〜2020年3月）
 
-【概要】<br>
-　国内最大級のネット予約サービスを運営している企業様のデータ分析チームにおいて、BigQueryを主に用いたデータ抽出・集計やデータマート作成を担当
+【概要】 国内最大級のネット予約サービスを運営している企業様のデータ分析チームにおいて、BigQueryを主に用いたデータ抽出・集計やデータマート作成を担当
 
 【業務内容】 以下のような業務において設計から実装、テストまでを担当
-- サイト利用状況や予約状況といったKPIをモニタリングするデータマート作成
+- サイト利用状況や予約状況といったKPIモニタリング用データマートの作成
 - AdobeアナリティクスやGoogleアナリティクスのデータを用いたPVモニタリングのデータマート作成
 - DWH上のデータへのアドホックなデータ抽出
 - RedshiftからBigQueryへの移行に伴うSQL書き換え
@@ -52,10 +51,22 @@
 - Tableauでのビューの作成
 
 【使用技術】<br>
-　(言語) SQL(BigQuery, Redshift), JavaScript, shell script <br>
+　(言語) SQL(BigQuery, Redshift), JavaScript, shell script<br>
 　(AWS) Redshift<br>
 　(GCP) BigQuery<br>
 　(ツール) Tableau, GAS, Git
+
+### Ruby on Rails アプリの保守運用 （2019年5月〜2019年9月）
+
+【概要】 Ruby on Railsで実装されたインフラ監視システムの保守・運用を担当
+
+【業務内容】
+- トラブル発生の報告を受け、原因箇所の特定、開発環境上での改修、テスト、本番適用までを実施
+
+【使用技術】<br>
+　(言語) Ruby, SQL(MySQL)<br>
+　(DB) MySQL<br>
+　(FW) Ruby on Rails
 
 ### 画像認識AIモデル開発案件 （2018年9月〜2019年3月）
 
@@ -73,12 +84,11 @@
 
 ### Hadoopを用いたデータ処理及びビッグデータ基盤EOS案件 （2017年7月〜2018年2月）
 
-【概要】<br>
-　同上の組織において、データ処理バッチ開発や、EOSを迎えたオンプレミスのビッグデータ分析基盤をAWS上に構築・移行するプロジェクトにおけるPoCを担当
+【概要】 同上の組織において、データ処理バッチ開発や、EOSを迎えたオンプレミスのビッグデータ分析基盤をAWS上に構築・移行するプロジェクトにおけるPoCを担当
 
 【業務内容】
 - Webログと顧客データの紐付けといったデータ加工処理バッチの実装
-- 基盤EOSにおいて、以下のようなフィージビリティ検証や性能検証等のPoCを実施。
+- 基盤EOSにおいて、以下のようなフィージビリティ検証や性能検証等のPoCを実施
   - 基盤移行に伴い、分析ジョブの実行フレームワークも変更となったため、変更後フレームワークに合わせた形にジョブ内容を修正
   - AWS上で利用するサーバー(インスタンス)選定のための性能検証
   - AWS Lambdaを利用した自動ジョブ連携のフィージビリティ検証
@@ -89,30 +99,21 @@
 　(FW) Hadoop, AsakusaFW, Hive<br>
 　(AWS) EMR, Lambda, DynamoDB
 
-### Ruby on Rails アプリの保守運用 （2019年5月〜2019年9月）
-
-【概要】 Ruby on Railsで実装されたインフラ監視システムの保守・運用を担当。
-
-【業務内容】 トラブル発生の報告を受け、原因箇所を特定、開発環境上で改修、テスト、本番適用までを実施。
-
-【使用技術】<br>
-　(言語) Ruby, SQL(MySQL)<br>
-　(DB) MySQL<br>
-　(FW) Ruby on Rails
-
 ## スキル
+
+※ **太字**は特に実務経験が豊富な技術
 
 ### 言語
 
 **Python** | Ruby | **Java** | JavaScript | **shell script** | **C**
 
-### フレームワーク
+### フレームワーク・ミドルウェア
 
-Hadoop | Spark | Hive | Presto | Ruby on Rails
+**Airflow** | Hadoop | Spark | Hive | Presto | Ruby on Rails
 
 ### DB / DWH
 
-MySQL | PostgreSQL | **Redshift** | **BigQuery**
+MySQL | PostgreSQL | **Redshift** | **BigQuery** | **Athena**
 
 ### クラウド
 
@@ -124,9 +125,9 @@ EC2 | **Lambda** | **S3** | DynamoDB | API Gateway | **CodeCommit** | CodePipeli
 
 **BigQuery**
 
-### その他
+### ツール
 
-**Docker** | **Airflow** | **Git** | **GitHub Actions** | GAS | Tableau | Redash
+**Docker** | **Git** | **GitHub Actions** | GAS | Tableau | Redash
 
 ## 学歴
 
@@ -135,18 +136,20 @@ EC2 | **Lambda** | **S3** | DynamoDB | API Gateway | **CodeCommit** | CodePipeli
 
 ## 取得資格
 
-- 2025年7月  TOEIC score 755
-- 2022年4月  OSS-DB Exam Silver
-- 2022月2月  統計検定2級
-- 2020年12月  AWS認定データアナリティクス
-- 2018年12月  AWS認定ソリューションアーキテクト アソシエイト
-- 2018年10月  LPIC レベル1 (LinuC レベル1)
-- 2017年12月  応用情報技術者
-- 2015年5月  基本情報技術者
+| 取得時期 | 資格名 |
+|----------|--------|
+| 2025年7月 | TOEIC score 755 |
+| 2022年4月 | OSS-DB Exam Silver |
+| 2022年2月 | 統計検定2級 |
+| 2020年12月 | AWS認定データアナリティクス |
+| 2018年12月 | AWS認定ソリューションアーキテクト アソシエイト |
+| 2018年10月 | LPIC レベル1 (LinuC レベル1) |
+| 2017年12月 | 応用情報技術者 |
+| 2015年5月 | 基本情報技術者 |
 
 ## その他
 
-- 業務使用経験ツール： Slack | GitHub | Redmine | Jira/Confluence | Backlog | Microsoft Office | Google Workspace
+- 業務使用経験ツール: Slack | GitHub | Redmine | Jira/Confluence | Backlog | Microsoft Office | Google Workspace
 - GitHubアカウント: https://github.com/kosei-s
 - Qiitaアカウント: https://qiita.com/kosei-s
 - Kaggleアカウント: https://www.kaggle.com/koseis
