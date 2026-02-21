@@ -2,29 +2,44 @@
 
 ## 職務要約
 
-大学院(情報理工学)修了後、ITエンジニアとして主にデータ基盤・ETLパイプライン・データ分析の領域に従事してきました。主な内容としては、EMR/Hadoop/Sparkを用いたデータ処理、Pythonを用いたデータ加工・集計、BigQuery/Redshiftを用いたデータ集計、Airflowを用いたETLワークフロー構築等の経験があります。役割は基本的に実装・テスト・保守運用です。
+大学院(情報理工学)修了後、ITエンジニアとして主にデータ基盤・ETLパイプライン・データ分析の領域に従事してきました。主な内容としては、Python/Hadoop/Sparkを用いたデータ集計・処理、BigQuery/Redshift/Athena等のSQLを用いたデータ集計、Airflowを用いたETLワークフロー構築等の経験があります。役割は基本的に実装・テスト・保守運用です。
 
 ## 強み
 
-- Airflow/Glue/Redshift/S3 を組み合わせた ETL ワークフロー実装
+- AWS Glue（PySpark/Pandas）を用いた大規模 ETL ジョブの設計・実装・パフォーマンスチューニング
+- Athena/Redshift/S3 を活用したデータレイク・DWH の構築と運用
+- QuickSight を用いた BI ダッシュボード構築およびデータソース最適化
 - Python/SQL を用いたデータ加工、データ品質担保、分析用データマート整備
-- CloudFormation/Docker/GitHub Actions などを使った開発環境・運用の標準化
-- データ基盤利用者向けの環境提供や運用改善など、利用部門を意識した実務対応
+- ライブラリ・ランタイムのバージョンアップやリンター導入など技術的負債の解消
 
 ## スキルサマリー
 
-特に実務で利用頻度が高い技術: **Python / SQL / Airflow / Redshift / BigQuery / Glue**
+特に実務で利用頻度が高い技術: **Python / SQL / Airflow / PySpark / Athena / Redshift / BigQuery / Glue / QuickSight**
 
 | 区分 | 技術 |
 |---|---|
 | 言語 | Python, SQL, Ruby, Java, JavaScript, Shell Script, C |
-| フレームワーク/ミドルウェア | Airflow, Spark, Hadoop, Hive, Presto, Ruby on Rails |
+| フレームワーク/ミドルウェア | PySpark, Pandas, Polars, Airflow, Hadoop, Hive, Presto, Ruby on Rails |
 | DB / DWH | Redshift, BigQuery, Athena, PostgreSQL, MySQL |
-| クラウド（AWS） | S3, Glue, Redshift, Athena, EMR, Lambda, DynamoDB, ECS, ECR, IAM, EC2, API Gateway, CloudFormation, CloudWatch, CodeCommit, CodePipeline, Data Pipeline, Systems Manager |
+| クラウド（AWS） | Glue, S3, Athena, Redshift, QuickSight, SageMaker, Step Functions, EMR, Lambda, DynamoDB, ECS, ECR, IAM, EC2, API Gateway, CloudFormation, CloudWatch, CodeCommit, CodePipeline, Data Pipeline, Systems Manager |
 | クラウド（GCP） | BigQuery |
-| ツール | Docker, Git, GitHub Actions, Tableau, Redash, GAS |
+| ツール | Docker, Git, GitHub Actions, SQLFluff, Tableau, Redash, GAS |
 
 ## 主な職務経歴
+
+### PySpark/SQLを用いたデータ処理の開発・運用・改善およびBI構築（2022年8月〜2026年2月）
+
+- プロジェクト概要: 在庫データ分析基盤チームにて、在庫・販売分析機能のデータ処理開発、ETL/データマート整備、BIダッシュボード改善を担当
+- 担当業務:
+  - Glue（PySpark/Pandas）/Athena/Redshift/Aurora（PostgreSQL）/S3 を用いた ETL・集計処理の実装と運用
+  - PySpark/Pandas/Polars/Athena 処理の性能チューニング
+  - Glue バージョンアップ（2.0/3.0 → 4.0 → 5.0）、Python バージョンアップ（3.7 → 3.10 → 3.11）対応
+  - QuickSight を用いた BI ダッシュボードの新規構築・改修、SPICE/Direct Query の使い分けとクエリパフォーマンス改善
+- 使用技術:
+  - 言語: Python, SQL（Athena, Redshift, PostgreSQL）
+  - フレームワーク/ミドルウェア: Spark（PySpark）, Pandas, Polars
+  - AWS: Glue, S3, Athena, Redshift, Aurora (PostgreSQL), QuickSight, SageMaker, Step Functions, Lambda
+  - ツール: Cursor, Docker, Git, GitHub Actions, Redash
 
 ### データ基盤の運用・保守（2022年4月〜2022年7月）
 
