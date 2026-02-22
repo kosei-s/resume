@@ -4,14 +4,6 @@
 
 大学院(情報理工学)修了後、ITエンジニアとして主にデータ基盤・ETLパイプライン・データ分析の領域に従事してきました。主な内容としては、Python/Hadoop/Sparkを用いたデータ集計・処理、BigQuery/Redshift/Athena等のSQLを用いたデータ集計、Airflowを用いたETLワークフロー構築等の経験があります。役割は基本的に実装・テスト・保守運用です。
 
-## 強み
-
-- AWS Glue（PySpark/Pandas）を用いた大規模 ETL ジョブの設計・実装・パフォーマンスチューニング
-- Athena/Redshift/S3 を活用したデータレイク・DWH の構築と運用
-- QuickSight を用いた BI ダッシュボード構築およびデータソース最適化
-- Python/SQL を用いたデータ加工、データ品質担保、分析用データマート整備
-- ライブラリ・ランタイムのバージョンアップやリンター導入など技術的負債の解消
-
 ## スキルサマリー
 
 特に実務で利用頻度が高い技術: **Python / SQL / Airflow / PySpark / Athena / Redshift / BigQuery / Glue / QuickSight**
