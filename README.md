@@ -6,16 +6,15 @@
 
 ## スキルサマリー
 
-特に実務で利用頻度が高い技術: **Python / SQL / Airflow / PySpark / Athena / Redshift / BigQuery / Glue / QuickSight**
+直近案件（2022年8月〜現在）の使用技術: **Python / PySpark / Pandas / SQL / Glue / Athena / Redshift / QuickSight / Docker**
 
 | 区分 | 技術 |
 |---|---|
-| 言語 | Python, SQL, Ruby, Java, JavaScript, Shell Script, C |
-| フレームワーク/ミドルウェア | PySpark, Pandas, Polars, Airflow, Hadoop, Hive, Presto, Ruby on Rails |
-| DB / DWH | Redshift, BigQuery, Athena, PostgreSQL, MySQL |
-| クラウド（AWS） | Glue, S3, Athena, Redshift, QuickSight, SageMaker, Step Functions, EMR, Lambda, DynamoDB, ECS, ECR, IAM, EC2, API Gateway, CloudFormation, CloudWatch, CodeCommit, CodePipeline, Data Pipeline, Systems Manager |
-| クラウド（GCP） | BigQuery |
-| ツール | Docker, Git, GitHub Actions, SQLFluff, Tableau, Redash, GAS |
+| 言語 | Python（7年）, SQL（7年）, Shell Script（4年）, Ruby（1年）, Java（1年）, JavaScript, C |
+| フレームワーク/ミドルウェア/ライブラリ | Airflow（2年）, PySpark（2年）, Pandas（1年）, Polars（1年）, Hadoop（1年）, Ruby on Rails（1年） |
+| DB / DWH | Redshift（4年）, Athena（4年）, PostgreSQL（3年）, BigQuery（半年）, Hive, Presto |
+| AWS | Glue Job（3年）, Lambda（3年）, QuickSight（2年）, Step Functions（2年）, EMR（2年）, DynamoDB, ECS, CloudFormation, etc. |
+| ツール | Git, GitHub Actions, Docker, Redash, Tableau, GAS, Cursor, Claude Code |
 
 ## 主な職務経歴
 
@@ -132,5 +131,5 @@
 
 ## その他
 
-- 業務使用ツール: Slack, GitHub, Redmine, Jira/Confluence, Backlog, Microsoft Office, Google Workspace
+- 業務使用ツール: Slack, GitHub, Redmine, Jira/Confluence, Notion, Backlog, Microsoft Office, Google Workspace
 - GitHub: [https://github.com/kosei-s](https://github.com/kosei-s)
