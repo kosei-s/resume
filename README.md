@@ -1,132 +1,115 @@
 # 職務経歴書
 
-## 概要
+## 職務要約
 
-大学院(情報系)を卒業して以来5年間ほど、エンジニアとして主にデータ分析・ETL・基盤周辺の業務に携わってきました。主な内容としては、EMR/Hadoop/Sparkを用いたデータ処理、Pythonを用いたデータ加工・集計、BigQuery/Redshiftを用いたデータ集計、Airflowを用いたETLワークフロー構築等の経験があります。役割は基本的に設計・実装・テストです。
+大学院(情報理工学)修了後、ITエンジニアとして主にデータ基盤・ETLパイプライン・データ分析の領域に従事してきました。主な内容としては、Python/Hadoop/Sparkを用いたデータ集計・処理、BigQuery/Redshift/Athena等のSQLを用いたデータ集計、Airflowを用いたETLワークフロー構築等の経験があります。役割は基本的に実装・テスト・保守運用です。
+
+## スキルサマリー
+
+直近案件（2022年8月〜現在）の使用技術: **Python / PySpark / Pandas / SQL / Glue / Athena / Redshift / QuickSight / Docker**
+
+| 区分 | 技術 |
+|---|---|
+| 言語 | Python（7年）, SQL（7年）, Shell Script（4年）, Ruby（1年）, Java（1年）, JavaScript, C |
+| フレームワーク/ミドルウェア/ライブラリ | Airflow（2年）, PySpark（2年）, Pandas（1年）, Polars（1年）, Hadoop（1年）, Ruby on Rails（1年） |
+| DB / DWH | Redshift（4年）, Athena（4年）, PostgreSQL（3年）, BigQuery（半年）, Hive, Presto |
+| AWS | Glue Job（3年）, Lambda（3年）, QuickSight（2年）, Step Functions（2年）, EMR（2年）, DynamoDB, ECS, CloudFormation, etc. |
+| ツール | Git, GitHub Actions, Docker, Redash, Tableau, GAS, Cursor, Claude Code |
 
 ## 主な職務経歴
 
-### データ基盤の運用・保守 (2022年4月〜2022年7月)
+### PySpark/SQLを用いたデータ処理の開発・運用・改善およびBI構築（2022年8月〜2026年2月）
 
-【概要】 大手OA機器メーカー様のデータ基盤チームにおいて、データ基盤の運用・保守作業を担当
+- プロジェクト概要: 在庫データ分析基盤チームにて、在庫・販売分析機能のデータ処理開発、ETL/データマート整備、BIダッシュボード改善を担当
+- 担当業務:
+  - Glue（PySpark/Pandas）/Athena/Redshift/Aurora（PostgreSQL）/S3 を用いた ETL・集計処理の実装と運用
+  - PySpark/Pandas/Polars/Athena 処理の性能チューニング
+  - Glue バージョンアップ（2.0/3.0 → 4.0 → 5.0）、Python バージョンアップ（3.7 → 3.10 → 3.11）対応
+  - QuickSight を用いた BI ダッシュボードの新規構築・改修、SPICE/Direct Query の使い分けとクエリパフォーマンス改善
+- 使用技術:
+  - 言語: Python, SQL（Athena, Redshift, PostgreSQL）
+  - フレームワーク/ミドルウェア: Spark（PySpark）, Pandas, Polars
+  - AWS: Glue, S3, Athena, Redshift, Aurora (PostgreSQL), QuickSight, SageMaker, Step Functions, Lambda
+  - ツール: Cursor, Docker, Git, GitHub Actions, Redash
 
-【業務内容】
-- CloudFormationを用いて開発用の環境をAWS上に構築
-- Glueクローラの仕様調査と、クローラを用いたS3データの自動テーブル化の仕組み実装
-- データ基盤利用者(各事業部)用の環境の構築・提供（手順あり）
+### データ基盤の運用・保守（2022年4月〜2022年7月）
 
-【使用技術】<br>
-　(言語) Ruby, Python, SQL(Athena), shell script<br>
-　(FW) Ruby on Rails (rake)<br>
-　(AWS) Glue, Athena, S3, CloudFormation, CloudWatch
+- プロジェクト概要: 大手OA機器メーカーのデータ基盤チームにて、データ基盤の運用・保守を担当
+- 担当業務:
+  - CloudFormation を用いた開発環境の構築
+  - Glue クローラの仕様調査、および S3 データの自動テーブル化の仕組み実装
+  - データ基盤利用者（各事業部）向け環境の構築・提供
+- 使用技術:
+  - 言語: Ruby, Python, SQL（Athena）, Shell Script
+  - フレームワーク: Ruby on Rails（rake）
+  - AWS: Glue, Athena, S3, CloudFormation, CloudWatch
 
-### Airflow等を用いたETLパイプラインの構築・運用 (2020年4月〜2022年3月)
+### Airflow等を用いたETLパイプラインの構築・運用（2020年4月〜2022年3月）
 
-【概要】 大手放送局子会社様のデータ活用チームにおいて、Airflow等を用いたETLパイプラインの構築を担当
+- プロジェクト概要: 大手放送局子会社のデータ活用チームにて、ETLパイプラインの構築・運用を担当
+- 担当業務:
+  - Airflow 上で Redshift/Glue/S3/DynamoDB を組み合わせた ETL ワークフローを実装
+  - Glue でスキーマ登録した S3 データを Redshift Spectrum で集計・変換し、Redshift（データマート）へロード
+  - AWS Data Pipeline, EMR（Spark）を用いた ETL バッチ実装
+  - Python によるデータクレンジング・構造化処理
+  - Docker を用いたローカル開発環境（Jupyter Notebook, Hadoop）構築
+  - CodePipeline/GitHub Actions を用いた CI/CD 構築
+- 使用技術:
+  - 言語: Python, SQL（Redshift, Athena, Presto）, Shell Script
+  - フレームワーク/ミドルウェア: Airflow, Spark, Presto
+  - AWS: Redshift, Athena, Glue, S3, EMR, Lambda, ECS, CodeCommit, CodePipeline, Data Pipeline
+  - ツール: Docker, Git, GitHub Actions, Redash
 
-【業務内容】 以下のような業務において設計から実装、テストまでを担当
-- Airflow上においてRedshiftやGlue, S3, DynamoDB等を用いたETLワークフローを実装
-  - 主なETL内容としては、GlueにS3データのスキーマを登録し、Redshift Spectrumで集計・変換し、Redshift(データマート)へロード。(ロード処理の非同期制御にDynamoDBを利用)
-- AWS Data Pipeline, EMR(Spark)を用いたETLバッチの実装
-- Pythonでのrawデータのクレンジングや構造化等の加工処理
-- Dockerを用いたローカル開発環境(Jupyter NotebookやHadoop)の構築
-- AWS CodePipelineやGitHub Actionsを用いたCI/CDの構築
+### BigQuery等を用いたデータ分析（2019年10月〜2020年3月）
 
-【使用技術】<br>
-　(言語) Python, SQL(Redshift, Athena, Presto), shell script<br>
-　(FW) Airflow, Spark, Presto<br>
-　(AWS) Redshift, Athena, Glue, S3, EMR, Lambda, ECS, CodeCommit, CodePipeline, Data Pipeline<br>
-　(ツール) Docker, Git, GitHub Actions, Redash
+- プロジェクト概要: 国内最大級のネット予約サービスを運営している企業のデータ分析チームにて、BigQueryを中心としたデータ抽出・集計・データマート作成を担当
+- 担当業務:
+  - サイト利用状況・予約状況など KPI モニタリング用データマート作成
+  - Adobe Analytics / Google Analytics データを用いた PV モニタリング用データマート作成
+  - DWH データのアドホック抽出
+  - Redshift から BigQuery への移行に伴う SQL 書き換え
+  - GAS と BigQuery を用いたデータマートの自動定期更新・Slack配信実装
+  - Tableau での可視化ビュー作成
+- 使用技術:
+  - 言語: SQL（BigQuery, Redshift）, JavaScript, Shell Script
+  - AWS: Redshift
+  - GCP: BigQuery
+  - ツール: Tableau, GAS, Git
 
-### BigQuery等を用いたデータ分析 （2019年10月〜2020年3月）
+### Ruby on Railsアプリの保守運用（2019年5月〜2019年9月）
 
-【概要】<br>
-　国内最大級のネット予約サービスを運営している企業様のデータ分析チームにおいて、BigQueryを主に用いたデータ抽出・集計やデータマート作成を担当
+- プロジェクト概要: Ruby on Rails で実装されたインフラ監視システムの保守・運用を担当
+- 担当業務:
+  - 障害報告を受けた際の原因調査、改修、テスト、本番適用まで一連で対応
+- 使用技術:
+  - 言語: Ruby, SQL（MySQL）
+  - DB: MySQL
+  - フレームワーク: Ruby on Rails
 
-【業務内容】 以下のような業務において設計から実装、テストまでを担当
-- サイト利用状況や予約状況といったKPIをモニタリングするデータマート作成
-- AdobeアナリティクスやGoogleアナリティクスのデータを用いたPVモニタリングのデータマート作成
-- DWH上のデータへのアドホックなデータ抽出
-- RedshiftからBigQueryへの移行に伴うSQL書き換え
-- GASとBigQueryを用いたデータマートの自動定期更新/Slack配信の実装
-- Tableauでのビューの作成
+### 画像認識AIモデル開発（2018年9月〜2019年3月）
 
-【使用技術】<br>
-　(言語) SQL(BigQuery, Redshift), JavaScript, shell script <br>
-　(AWS) Redshift<br>
-　(GCP) BigQuery<br>
-　(ツール) Tableau, GAS, Git
+- プロジェクト概要: メガバンク向け AI 開発チームにて、開発支援および学習データ作成を担当
+- 担当業務:
+  - AIモデル学習用データの作成・加工（アノテーション/オーグメンテーション）
+  - Python ライブラリを用いた推論精度評価（Precision/Recall算出）
+  - 案件推進サポート、設計書などのプロジェクト文書作成
+  - AIモデル運用ルール策定
+- 使用技術:
+  - 言語: Python, Shell Script
 
-### 画像認識AIモデル開発案件 （2018年9月〜2019年3月）
+### Hadoopを用いたデータ処理およびビッグデータ基盤EOS対応（2017年7月〜2018年2月）
 
-【概要】 メガバンクのAI開発チームにおいて、案件推進サポートやAIモデルの学習データの作成等を担当
-
-【業務内容】
-- AIモデル学習用のデータ作成・加工（アノテーション/オーグメンテーション）
-- Pythonライブラリを用いたAIモデル推論精度の評価(Precision, Recall算出)
-- 案件推進サポート
-- 設計書等のプロジェクト文書作成
-- AIモデル運用ルール策定
-
-【使用技術】<br>
-　(言語) Python, shell script
-
-### Hadoopを用いたデータ処理及びビッグデータ基盤EOS案件 （2017年7月〜2018年2月）
-
-【概要】<br>
-　同上の組織において、データ処理バッチ開発や、EOSを迎えたオンプレミスのビッグデータ分析基盤をAWS上に構築・移行するプロジェクトにおけるPoCを担当
-
-【業務内容】
-- Webログと顧客データの紐付けといったデータ加工処理バッチの実装
-- 基盤EOSにおいて、以下のようなフィージビリティ検証や性能検証等のPoCを実施。
-  - 基盤移行に伴い、分析ジョブの実行フレームワークも変更となったため、変更後フレームワークに合わせた形にジョブ内容を修正
-  - AWS上で利用するサーバー(インスタンス)選定のための性能検証
-  - AWS Lambdaを利用した自動ジョブ連携のフィージビリティ検証
-  - AWS Lambdaの多重起動問題を発見し、対応策を策定・実装
-
-【使用技術】<br>
-　(言語) Java, shell script, Python<br>
-　(FW) Hadoop, AsakusaFW, Hive<br>
-　(AWS) EMR, Lambda, DynamoDB
-
-### Ruby on Rails アプリの保守運用 （2019年5月〜2019年9月）
-
-【概要】 Ruby on Railsで実装されたインフラ監視システムの保守・運用を担当。
-
-【業務内容】 トラブル発生の報告を受け、原因箇所を特定、開発環境上で改修、テスト、本番適用までを実施。
-
-【使用技術】<br>
-　(言語) Ruby, SQL(MySQL)<br>
-　(DB) MySQL<br>
-　(FW) Ruby on Rails
-
-## スキル
-
-### 言語
-
-**Python** | Ruby | **Java** | JavaScript | **shell script** | **C**
-
-### フレームワーク
-
-Hadoop | Spark | Hive | Presto | Ruby on Rails
-
-### DB / DWH
-
-MySQL | PostgreSQL | **Redshift** | **BigQuery**
-
-### クラウド
-
-#### AWS
-
-EC2 | **Lambda** | **S3** | DynamoDB | API Gateway | **CodeCommit** | CodePipeline(Build, Deploy) | CloudWatch | CloudFormation | Systems Manager | **Athena** | **Redshift** | **EMR** | **Data Pipeline** | **Glue** | IAM | ECR | ECS
-
-#### GCP
-
-**BigQuery**
-
-### その他
-
-**Docker** | **Airflow** | **Git** | **GitHub Actions** | GAS | Tableau | Redash
+- プロジェクト概要: 上記と同一組織にて、データ処理バッチ開発およびオンプレミス基盤のEOS対応に伴う AWS 移行 PoC を担当
+- 担当業務:
+  - Webログと顧客データの紐付けなど、データ加工バッチ実装
+  - 移行先フレームワークに合わせた分析ジョブ修正
+  - 移行先インスタンス選定のための性能検証
+  - Lambda を用いた自動ジョブ連携の実現性検証
+  - Lambda 多重起動問題を検知し、対応策を策定・実装
+- 使用技術:
+  - 言語: Java, Shell Script, Python
+  - フレームワーク/ミドルウェア: Hadoop, AsakusaFW, Hive
+  - AWS: EMR, Lambda, DynamoDB
 
 ## 学歴
 
@@ -135,18 +118,18 @@ EC2 | **Lambda** | **S3** | DynamoDB | API Gateway | **CodeCommit** | CodePipeli
 
 ## 取得資格
 
-- 2025年7月  TOEIC score 755
-- 2022年4月  OSS-DB Exam Silver
-- 2022月2月  統計検定2級
-- 2020年12月  AWS認定データアナリティクス
-- 2018年12月  AWS認定ソリューションアーキテクト アソシエイト
-- 2018年10月  LPIC レベル1 (LinuC レベル1)
-- 2017年12月  応用情報技術者
-- 2015年5月  基本情報技術者
+| 取得時期 | 資格名 |
+|---|---|
+| 2025年7月 | TOEIC L&R 755点 |
+| 2022年4月 | OSS-DB Exam Silver |
+| 2022年2月 | 統計検定2級 |
+| 2020年12月 | AWS認定データアナリティクス |
+| 2018年12月 | AWS認定ソリューションアーキテクト アソシエイト |
+| 2018年10月 | LPIC レベル1（LinuC レベル1） |
+| 2017年12月 | 応用情報技術者 |
+| 2015年5月 | 基本情報技術者 |
 
 ## その他
 
-- 業務使用経験ツール： Slack | GitHub | Redmine | Jira/Confluence | Backlog | Microsoft Office | Google Workspace
-- GitHubアカウント: https://github.com/kosei-s
-- Qiitaアカウント: https://qiita.com/kosei-s
-- Kaggleアカウント: https://www.kaggle.com/koseis
+- 業務使用ツール: Slack, GitHub, Redmine, Jira/Confluence, Notion, Backlog, Microsoft Office, Google Workspace
+- GitHub: [https://github.com/kosei-s](https://github.com/kosei-s)
