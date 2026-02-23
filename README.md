@@ -11,18 +11,18 @@
 | 区分 | 技術 |
 |---|---|
 | 言語 | Python（7年）, SQL（7年）, Shell Script（4年）, Ruby（1年）, Java（1年）, JavaScript, C |
-| フレームワーク/ミドルウェア/ライブラリ | Airflow（2年）, PySpark（2年）, Pandas（1年）, Polars（1年）, Hadoop（1年）, Ruby on Rails（1年） |
+| フレームワーク/ミドルウェア | Airflow（2年）, PySpark（2年）, Pandas（1年）, Polars（1年）, Hadoop（1年）, Ruby on Rails（1年） |
 | DB / DWH | Redshift（4年）, Athena（4年）, PostgreSQL（3年）, BigQuery（半年）, Hive, Presto |
 | AWS | Glue Job（3年）, Lambda（3年）, QuickSight（2年）, Step Functions（2年）, EMR（2年）, DynamoDB, ECS, CloudFormation, etc. |
-| ツール | Git, GitHub Actions, Docker, Redash, Tableau, GAS, Cursor, Claude Code |
+| ツール | Git, GitHub Actions, Docker, Redash, Tableau, GAS, Cursor |
 
 ## 主な職務経歴
 
 ### PySpark/SQLを用いたデータ処理の開発・運用・改善およびBI構築（2022年8月〜2026年2月）
 
-- プロジェクト概要: 在庫データ分析基盤チームにて、在庫・販売分析機能のデータ処理開発、ETL/データマート整備、BIダッシュボード改善を担当
+- プロジェクト概要: 在庫データ分析基盤チームにて、在庫・販売分析機能のデータ処理開発、BIダッシュボード開発を担当
 - 担当業務:
-  - Glue（PySpark/Pandas）/Athena/Redshift/Aurora（PostgreSQL）/S3 を用いた ETL・集計処理の実装と運用
+  - GlueJob（PySpark）/Athena/Redshift/Aurora（PostgreSQL）/S3 を用いた ETL・集計処理の実装と保守運用
   - PySpark/Pandas/Polars/Athena 処理の性能チューニング
   - Glue バージョンアップ（2.0/3.0 → 4.0 → 5.0）、Python バージョンアップ（3.7 → 3.10 → 3.11）対応
   - QuickSight を用いた BI ダッシュボードの新規構築・改修、SPICE/Direct Query の使い分けとクエリパフォーマンス改善
@@ -111,11 +111,6 @@
   - フレームワーク/ミドルウェア: Hadoop, AsakusaFW, Hive
   - AWS: EMR, Lambda, DynamoDB
 
-## 学歴
-
-- 東京工業大学大学院 情報理工学研究科 計算工学専攻 修了
-- 東京工業大学 工学部 情報工学科 卒業
-
 ## 取得資格
 
 | 取得時期 | 資格名 |
@@ -128,6 +123,11 @@
 | 2018年10月 | LPIC レベル1（LinuC レベル1） |
 | 2017年12月 | 応用情報技術者 |
 | 2015年5月 | 基本情報技術者 |
+
+## 学歴
+
+- 東京工業大学大学院 情報理工学研究科 計算工学専攻 修了
+- 東京工業大学 工学部 情報工学科 卒業
 
 ## その他
 
