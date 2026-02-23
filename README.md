@@ -6,8 +6,6 @@
 
 ## スキルサマリー
 
-直近案件（2022年8月〜現在）の使用技術: **Python / PySpark / Pandas / SQL / Glue / Athena / Redshift / QuickSight / Docker**
-
 | 区分 | 技術 |
 |---|---|
 | 言語 | Python（7年）, SQL（7年）, Shell Script（4年）, Ruby（1年）, Java（1年）, JavaScript, C |
